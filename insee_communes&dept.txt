@@ -1,0 +1,71 @@
+Mon 27 May 2019 14:53:30 CEST 
+https://www.insee.fr/fr/information/2114819
+Liste des communes de la métropole et Dom (toutes les communes ayant existé depuis 1943)
+Liste des communes
+(dbase, 872 Ko)
+(txt, 671 Ko)
+Le fichier communal décrit l'ensemble des communes existantes au 1er janvier 2016 ou ayant existé.
+
+Les communes dont des fractions appartiennent à des cantons différents sont représentées par autant d'enregistrements qu'elles comportent de fractions cantonales, plus un enregistrement correspondant au code « canton non précisé ».
+
+Il existe un fichier national et des fichiers régionaux.
+
+– Dessin du fichier Communes de la métropole et Dom (toutes les communes ayant existé depuis 1943)
+Dessin du fichier Communes de la métropole et Dom (toutes les communes ayant existé depuis 1943)
+
+Longueur	Nom	        Désignation en clair
+1	        ACTUAL  	Code actualité de la commune
+1	        CHEFLIEU	Chef-lieu d'arrondissement, de département, de région ou bureau centralisateur de canton
+1	        CDC	        Découpage de la commune en cantons
+2	        RANG	    Nombre de fractions cantonales + 1 de la commune lorsqu'elle est multicantonale
+2	        REG	        Code région
+3	        DEP	        Code département
+3	        COM	        Code commune
+1	        AR	        Code arrondissement
+2	        CT	        Code canton
+1	        MODIF	    Indicateur de modification subie par la commune
+5	        POLE	    Code de la commune pôle de la commune fusionnée
+1	        TNCC	    Type de nom en clair
+5	        ARTMAJ	    Article (majuscules)
+70	        NCC	        Nom en clair (majuscules)
+5	        ARTMIN	    Article (typographie riche)
+70	        NCCENR	    Nom en clair (typographie riche)
+5	        ARTICLCT	Article (canton)
+70	        NCCCT	    Nom en clair du canton (typographie riche)
+
+Liste des départements
+Liste des départements
+(dbase, 2 Ko)
+(txt, 1 Ko)
+– Dessin du fichier « Départements » et liste des variables
+Dessin du fichier « Départements » et liste des variables
+
+Longueur	Nom	        Désignation en clair
+2	        REGION	    Code région
+3	        DEP	        Code département
+1	        CHEFLIEU	Chef-lieu d'arrondissement, de département, de région ou bureau centralisateur de canton
+1	        TNCC	    Type de nom en clair
+70	        NCC	        Nom en clair (majuscules)
+70	        NCCENR	    Nom en clair (typographie riche)
+
+Liste des pays et territoires étrangers
+Liste des pays et territoires étrangers
+(dbase, 7 Ko)
+(txt, 6 Ko)
+Le fichier des pays et territoires étrangers contient le code des pays, le libellé, leur année d'indépendance, leur ancien nom, leur ancien code, leur code pays de rattachement si nécessaire.
+
+– Dessin du fichier « Pays et territoires étrangers » et liste des variables
+Dessin du fichier « Pays et territoires étrangers » et liste des variables
+
+Longueur	Nom	        Désignation en clair
+5	        COG	        Code du pays ou territoire
+1	        ACTUAL	    Code actualité du pays
+5	        CAPAY	    Code officiel géographique de l'ancien pays de rattachement
+5	        CRPAY	    Code officiel géographique de l'actuel pays de rattachement
+4	        ANI	        Année d'indépendance
+70	        LIBCOG	    Libellé utilisé dans le COG
+70	        LIBENR	    Libellé du nom entier développé et enrichi paru au J.O. du 25 janvier 1994
+20	        ANCNOM	    Ancien nom du pays
+2	        CODEISO2	Code du pays sur 2 caractères conforme à la norme internationale ISO 3166 de représentation des noms de pays
+3	        CODEISO3	Code du pays sur 3 caractères conforme à la norme internationale ISO 3166 de représentation des noms de pays
+3	        CODENUM3	Code du pays à 3 chiffres conforme à la norme internationale ISO 3166 de représentation des noms de pays
